@@ -1,0 +1,26 @@
+=========================== Follow below steps =======================
+<br>
+1. Follow this path :- <strong>templates\components\products\product-view.html</strong>
+<br>
+2. Find :- <h1 class="productView-title">{{product.title}}</h1>
+<br>
+3. Below of <strong> h1 tag </strong> paste below code.
+<br>
+{{#if product.category}}
+  <div class="product-categories">
+    <h3>Categories:</h3>
+    <ul>
+      {{#each product.category}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </div>
+  
+  <!--{{#each product.category}}-->
+    {{#compare this 'Utility' operator='==='}}
+      <div class="utility-matched">
+        <strong>Utility Category Found!</strong> This product is in the Utility category.
+      </div>
+    {{/compare}}
+  <!--{{/each}}-->
+{{/if}}
