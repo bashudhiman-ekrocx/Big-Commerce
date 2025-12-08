@@ -1,0 +1,11 @@
+========================= Follow below steps ============================
+
+1. First, set up the BigCommerce theme on Stencil.
+
+2. Go to the templates > components > common ( folder or dir ).
+
+3. Inside common create file for example: any-where.html
+
+4. Write code inside ( any-where.html ) file , which are use many files.
+
+5. Any file inside call like this :- {{> components/common/any-where }}
