@@ -1,0 +1,11 @@
+========================= Follow below steps ============================
+
+1. First, set up the BigCommerce theme on Stencil.
+
+2. Go to the templates > pages folder (directory).
+
+3. Inside the pages folder, create a new folder named custom.
+
+4. Now create a file to display the custom product template, for example: new-template.html.
+
+5. Then copy the default product template code and paste it into new-template.html. Update the code according to your requirements.
