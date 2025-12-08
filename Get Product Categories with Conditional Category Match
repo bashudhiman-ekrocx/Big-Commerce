@@ -1,11 +1,11 @@
 =========================== Follow below steps =======================
-<br>
-1. Follow this path :- <strong>templates\components\products\product-view.html</strong>
-<br>
+
+1. Follow this path :- templates\components\products\product-view.html
+
 2. Find :- <h1 class="productView-title">{{product.title}}</h1>
-<br>
-3. Below of <strong> h1 tag </strong> paste below code.
-<br>
+
+3. Below of h1 tag paste below code.
+
 {{#if product.category}}
   <div class="product-categories">
     <h3>Categories:</h3>
