@@ -1,0 +1,7 @@
+================================== Big-commerce Get-products Demo ==================================
+
+ const STORE_HASH = '2minemkdgfuqy';
+ const API_TOKEN = '2az3s3qznp4ich6wldtj1vo8qocxmin6nx';
+ const X-Auth-Token: '2az3s3qznp4ich6wldtj1vo8qocxmin6nx'; // inside-header
+ const apiUrl = https://api.bigcommerce.com/stores/${STORE_HASH}/v3/catalog/products/
+ const fillUrl = https://api.bigcommerce.com/stores/2minemkdgfuqy/v3/catalog/products/
