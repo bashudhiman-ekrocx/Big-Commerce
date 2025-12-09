@@ -26,3 +26,18 @@ Paste below code inside :- templates\components\products\product-view.html
     <strong>{{name}}:</strong> {{value}}
   </div>
 {{/each}}
+
+
+============================== Get product custom fields on featured products ====================================
+Path:- templates\components\products\card.html
+
+  <ol class="custm_filed_data">
+    {{#if custom_fields}}
+        {{#each custom_fields}}
+           <!--<strong>{{name}}</strong> -->  <li> <span>&#9733;</span> {{value}}</li>
+            {{#if name '===' 'half_tshirt_feature_3'}}
+                <!--<div class="feature-badge">{{value}}</div>-->
+            {{/if}}
+        {{/each}}
+    {{/if}}
+</ol>
