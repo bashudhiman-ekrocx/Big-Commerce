@@ -1,0 +1,28 @@
+=============================== ************************ ===============================
+
+Paste below code inside :- templates\components\products\product-view.html
+
+{{#if custom_fields}}
+  <div class="product-features">
+    <h3>Half T-Shirt Features:</h3>
+    <ul class="feature-list">
+      {{#each product.custom_fields}}
+        {{#if name '===' 'half_tshirt_feature_1'}}
+          <li><i class="icon-check"></i> {{value}}</li>
+        {{/if}}
+        {{#if name '===' 'half_tshirt_feature_2'}}
+          <li><i class="icon-check"></i> {{value}}</li>
+        {{/if}}
+        {{#if name '===' 'half_tshirt_feature_3'}}
+          <li><i class="icon-check"></i> {{value}}</li>
+        {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+{{/if}}
+
+{{#each custom_fields}}
+  <div class="custom-field-item">
+    <strong>{{name}}:</strong> {{value}}
+  </div>
+{{/each}}
