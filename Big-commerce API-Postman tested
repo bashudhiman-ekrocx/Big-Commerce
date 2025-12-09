@@ -13,3 +13,7 @@
 ================================== Big-commerce Get-Orders Demo ==================================
  const apiUrl = https://api.bigcommerce.com/stores/${STORE_HASH}/v3/orders/
  const fillUrl = https://api.bigcommerce.com/stores/2minemkdgfuqy/v3/orders/ 
+
+================================== Big-commerce Get-customers Demo ==================================
+ const apiUrl = https://api.bigcommerce.com/stores/${STORE_HASH}/v3/customers
+ const fillUrl = https://api.bigcommerce.com/stores/2minemkdgfuqy/v3/customers
