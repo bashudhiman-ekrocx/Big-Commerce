@@ -1,0 +1,26 @@
+============================== Follow below steps ==================================
+
+Here is the corrected version with improved grammar and clarity, without changing the meaning:
+
+1. Go to the BigCommerce admin panel.
+2. Navigate to **Storefront** and click on **Themes**.
+3. Go to **Current Theme**.
+4. Click on **Advanced**.
+5. Click on **Download Current Theme**; the theme will download as a `.zip` file.
+6. Create a new folder wherever you want.
+7. Extract the downloaded theme file inside the newly created folder.
+8. Open this folder in the terminal (use CMD).
+9. Run the following command: `npm install` (make sure Node and npm are installed on your system).
+10. Next, run: `npm install -g @bigcommerce/stencil-cli`
+11. Next, run: `stencil init`
+12. When prompted, provide the Store URL: `https://your-store.mybigcommerce.com`
+13. When prompted, provide the Token (use the API token from BigCommerce Admin > Store-level API Accounts > Create API Account > Copy Token).
+14. Set the port to: **3000**
+15. Press **Enter** for the default npm settings.
+16. Run: `stencil start`
+17. Preview at:
+
+    * `https://localhost:3000`
+    * or `https://localhost:3001`
+
+
