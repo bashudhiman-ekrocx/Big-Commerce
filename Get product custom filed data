@@ -2,7 +2,7 @@
 
 Paste below code inside :- templates\components\products\product-view.html
 
-{{#if custom_fields}}
+{{#if product.custom_fields}}
   <div class="product-features">
     <h3>Half T-Shirt Features:</h3>
     <ul class="feature-list">
@@ -21,7 +21,7 @@ Paste below code inside :- templates\components\products\product-view.html
   </div>
 {{/if}}
 
-{{#each custom_fields}}
+{{#each product.custom_fields}}
   <div class="custom-field-item">
     <strong>{{name}}:</strong> {{value}}
   </div>
